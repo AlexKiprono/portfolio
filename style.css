@@ -1,0 +1,253 @@
+.profile{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.image-file{
+    width: 30%;
+    height: auto;
+    /* background-color: bisque; */
+} 
+
+img{
+    border-radius: 50%;
+    background-color: rgba(199, 195, 189, 0.712);
+    height: 25vh;
+}
+
+.whoami{
+    /* background-color: rgba(243, 250, 249, 0.76); */
+    width: 50vw;
+    text-align: center;
+    text-align: justify;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.whoami h1{
+    font-size: 60px;
+    line-height: 0.8;
+}
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    font-size: medium;
+
+}
+
+.links a{
+    background-color: grey;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.other_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+    font-size: small;
+}
+
+.other_details ul p{
+    line-height: 0.4;
+    color: grey;
+    font-size: small;
+}
+
+.introduction{
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    height: auto;
+
+}
+
+.introduction .subject{
+    background-color: rgba(243, 250, 249, 0.76);
+    width: 30%;
+    /* height: 30vh; */
+    padding: 20px;
+}
+
+.introduction .content{
+    width:900px;
+    /* height: 25vh; */
+    padding: 20px;
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.experience{
+    background-color: rgb(253, 250, 247);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    color: grey;
+}
+
+.experience .subject{
+  width: 30%;
+  /* height: 90vh; */
+  padding: 20px;
+}
+
+li{
+  display: flex;
+  flex-direction: row;
+}
+
+.experience .content{
+  height: auto;
+  padding: 20px;
+  font-size: large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* line-height: 1; */
+}
+
+.timeline{
+    width:900px;
+    background-color: rgba(243, 250, 249, 0.76);
+    color:grey;
+    padding:30px 20px;
+    /* box-shadow:0px 0px 10px rgba(0,0,0,.5); */
+  }
+
+  .timeline ul{
+    list-style-type:none;
+    /* border-left:2px solid #9cc1d3; */
+    border-left:2px solid #9cc1d3;
+
+    padding:10px 5px;
+  }
+
+  .timeline ul li{
+    padding:20px 20px;
+    position:relative;
+    cursor:pointer;
+    transition:.5s;
+  }
+
+  .timeline ul li span {
+    display:inline-block;
+    /* background-col#1685b85b8; */
+    /* border-radius:25px; */
+    padding:2px 5px;
+    font-size:15px;
+    text-align:center;
+  }
+
+  .timeline ul li .content h4 H6{
+    /* color:#34ace0; */
+    font-size:17px;
+    padding-top:5px;
+  }
+
+  .timeline ul li .content p{
+    padding:5px 0px 15px 0px;
+    font-size:15px;
+  }
+
+  .timeline ul li:before{
+    position:absolute;
+    content:'';
+    width:10px;
+    height:10px;
+    /* background-color:#34ace0; */
+    background-color:rgb(219, 64, 17);
+
+    border-radius:50%;
+    left:-11px;
+    top:28px;
+    transition:.5s;
+  }
+
+  .timeline ul li:hover{
+    background-color:#c4d1d825;
+    color: rgb(23, 26, 29);
+  }
+
+  .timeline ul li:hover:before{
+    background-color:rgb(219, 64, 17);
+    box-shadow:0px 0px 10px 2px rgb(230, 38, 13);
+  }
+
+  @media (max-width:300px){
+    .timeline{
+      width:100%;
+      padding:30px 5px 30px 10px;
+    }
+    .timeline ul li .content h3{
+      color:#34ace0;
+      font-size:15px;
+    }
+  
+  }
+
+  .time{
+    text-align: left;
+  }
+
+
+
+.education{
+    background-color: rgb(248, 244, 240);
+    display: flex;
+    flex-direction: row;
+    color: grey;
+    height: auto;
+}
+
+.education .subject{
+    width: 30%;
+    padding: 20px;
+}
+
+.education .content{
+    /* height: 20vh; */
+    padding: 20px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact{
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+  color: grey;
+  height: auto;
+}
+
+.contact .subject{
+  width: 30%;
+  padding: 20px;
+}
+
+.contact .other_details{
+  background-color: rgba(243, 250, 249, 0.76);
+  width: 942px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: grey;
+  font-size: small;
+}
+
+.footer{
+  margin: 10px;
+  color: #000;
+  text-align: center;
+}
