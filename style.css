@@ -8,6 +8,20 @@
     background-color: aliceblue;
 }
 
+.stack i{
+  background-color: crimson;
+  justify-content: space-around;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(221, 214, 214);
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+i:hover{
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
 .image-file{
     width: 30%;
     height: auto;
